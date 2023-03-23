@@ -18,10 +18,13 @@ namespace FamilyCalculator
     /// <summary>
     /// Логика взаимодействия для MainWindow.xaml
     /// </summary>
+    public class A
+        {}
     public partial class MainWindow : Window
     {
         public MainWindow()
         {
+            int i = 123;
             InitializeComponent();
         }
     }
